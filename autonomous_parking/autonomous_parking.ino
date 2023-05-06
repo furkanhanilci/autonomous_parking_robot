@@ -72,7 +72,7 @@ sag_arka_motor.run(RELEASE);
  
 }
  
-void motor_pinSetup()
+void motor_pin_setup()
 {
  
 sol_on_motor.run(RELEASE);
@@ -270,7 +270,7 @@ Serial.begin(9600);
 attachInterrupt(5, say, CHANGE);
 pinMode (sinyalpin, INPUT) ;
  
-motor_pinSetup();
+motor_pin_setup();
 }
  
 void loop()
